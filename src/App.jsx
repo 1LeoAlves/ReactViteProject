@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import './App.css'
 import LinkRoutes from './assets/components/LinkRoutes';
+import './App.css'
 
 function App() {
   return (

@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+html{
+    min-height: 200vh;
+    min-width: 100vw;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: rgb(17, 17, 17);
+}
