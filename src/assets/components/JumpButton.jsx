@@ -1,5 +1,5 @@
 
-export function JumpButtom(){
+export default function JumpButtom(){
     return (
         <>
             

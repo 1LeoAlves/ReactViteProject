@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+:root{
+    --color-purple-gradient: linear-gradient(to right, #682685, #bd68de);
+}

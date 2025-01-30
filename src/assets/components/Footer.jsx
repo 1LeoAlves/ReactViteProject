@@ -1,9 +1,8 @@
-export function Footer(){
+function Footer(){
     return (
-        <>
-            <section>
+        <section className="w-full bg-amber-300">
 
-            </section>
-        </>
+        </section>
     )
 }
+export default Footer;

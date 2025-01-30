@@ -1,10 +1,16 @@
-import { Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "../pages/Home"
 
-export function LinkRoutes(){
+function LinkRoutes(){
     return(
         <>
-            <Route path='Home' element="/Home"></Route>
-            <Route path='About' element="/About-Me"></Route>
+            <BrowserRouter>
+                <Routes>
+                    <Route path='*' element={<Home/>}></Route>
+                </Routes>
+            </BrowserRouter>
         </>
     )
 }
+
+export default LinkRoutes;
