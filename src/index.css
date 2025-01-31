@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 html{
-    min-height: 200vh;
+    min-height: 100vh;
     min-width: 100vw;
     scroll-behavior: smooth;
     overflow-x: hidden;
