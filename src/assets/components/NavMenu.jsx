@@ -10,10 +10,10 @@ function NavMenu(){
                 <h1 className=" flex justify-center items-center text-left text-6xl transition-transform-drop-shadow duration-300 drop-shadow-[0px_0px_3px_white] hover:drop-shadow-[0px_0px_8px_white] hover:scale-102 tracking-tight">Leo Alves</h1>
             </motion.div>
             <motion.nav className="font-bold text-2xl flex pr-20 gap-15">
-                <GlowButton targetId={"ID-Aqui"} text={"Inicio"}/>
-                <GlowButton targetId={"ID-Aqui"} text={"Sobre mim"}/>
-                <GlowButton targetId={"ID-Aqui"} text={"Competências"}/>
-                <FileButton filePath={"/files/Curriculo_Leonardo_Alves.pdf"} text={"Baixar Currículo"}/>
+                <GlowButton targetId={"#bio"} text={"Inicio"} delay={.1}/>
+                <GlowButton targetId={"ID-Aqui"} text={"Sobre mim"} delay={.2}/>
+                <GlowButton targetId={"ID-Aqui"} text={"Competências"} delay={.3}/>
+                <FileButton filePath={"/files/Curriculo_Leonardo_Alves.pdf"} text={"Baixar Currículo"} delay={.4}/>
             </motion.nav>
         </section>
     )

@@ -15,7 +15,7 @@ export default function NavButton(props){
             x: 0, opacity: 1, 
             transition: {
                 duration:.5, 
-                delay:0.15
+                delay: props.delay
             }
         }
     }
