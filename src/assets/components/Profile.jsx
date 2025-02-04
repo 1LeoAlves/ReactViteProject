@@ -16,8 +16,8 @@ export default function Profile(){
                     </div>
                 </div>
                 <div className="flex gap-6 flex-col text-[1.35rem] text-justify">
-                    <h1 className="bg-gradient-to-r from-[rgb(64,7,64)] via-[rgb(35,11,58)] to-[rgb(68,9,82)] font-bold min-md:text-3xl  xl:text-5xl p-3 rounded-[.25rem]">Sobre Mim</h1>
-                    <p className="min-md:text-sm  xl:text-2xl">
+                    <h1 className="bg-gradient-to-r from-[rgb(64,7,64)] via-[rgb(35,11,58)] to-[rgb(68,9,82)] font-bold min-md:text-3xl  xl:text-4xl p-3 rounded-[.25rem]">Sobre Mim</h1>
+                    <p className="min-md:text-sm  xl:text-[1.25rem]">
                         Sou estudante de Tecnologia em Jogos Digitais no IFBA e Ciência da Computação na UniRuy, apaixonado por programação e design de jogos. Tenho experiência prática com C# e Unity, além de ter participado do desenvolvimento de um jogo digital com temática histórico-cultural da Bahia, apresentado na SBGames.
                         Possuo habilidades em HTML5, CSS, design gráfico, modelagem 3D, animação e iluminação, utilizando ferramentas como Inkscape, Krita, Aseprite e DragonBones. Já atuei como Chefe de Sala no Cebraspe e Auxiliar Administrativo no IFBA, adquirindo experiência em organização, gestão e suporte acadêmico.
                         Além disso, tenho conhecimento em Scrum e Kanban, adquirido em projetos acadêmicos, e busco consolidar minha carreira na indústria de tecnologia, contribuindo para a inovação e diversidade no setor. 🚀
