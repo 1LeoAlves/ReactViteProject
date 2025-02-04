@@ -14,11 +14,12 @@ export default function SkillsSection(){
                         <SkillCard title={"React"} src={"./react-icon.png"} delay={0.55}></SkillCard>
                         <SkillCard title={"C#"} src={"./csharp-icon.png"} delay={0.65}></SkillCard>
                         <SkillCard title={"Python"} src={"./python-icon.webp"} delay={0.75}></SkillCard>
-                        <SkillCard title={"Unity"} src={"./unity-icon.png"} delay={0.15}></SkillCard>
-                        <SkillCard title={"Blender"} src={"./blender-icon.png"} delay={0.25}></SkillCard>
-                        <SkillCard title={"Inkscape"} src={"./inkscape-icon.png"} delay={0.35}></SkillCard>
-                        <SkillCard title={"PowerBI"} src={"./pbi-icon.png"} delay={0.45}></SkillCard>
-                        <SkillCard title={"Google"} src={"./goffice-icon.png"} delay={0.55}></SkillCard>
+                        <SkillCard title={"MySQL"} src={"./mysql-icon.png"} delay={0.15}></SkillCard>
+                        <SkillCard title={"Unity"} src={"./unity-icon.png"} delay={0.25}></SkillCard>
+                        <SkillCard title={"Blender"} src={"./blender-icon.png"} delay={0.35}></SkillCard>
+                        <SkillCard title={"Inkscape"} src={"./inkscape-icon.png"} delay={0.45}></SkillCard>
+                        <SkillCard title={"PowerBI"} src={"./pbi-icon.png"} delay={0.55}></SkillCard>
+                        <SkillCard title={"Google"} src={"./goffice-icon.png"} delay={0.65}></SkillCard>
                     </ul>
                 </div>
             </div>
