@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Profile from "../components/Profile";
 import LadingSection from "../components/LadingSection";
 import SkillsSection from "../components/SkillsSection";
+import ProjectsSection from "../components/ProjectsSection";
 
 export default function Home(){
     return(
@@ -11,6 +12,7 @@ export default function Home(){
             <LadingSection/>
             <Profile/>
             <SkillsSection/>
+            <ProjectsSection/>
             <Footer/>
         </>
     )
