@@ -8,7 +8,6 @@ export default defineConfig({
     react(), 
     tailwindcss()
   ],
-  base: "/[ReactViteProject]/",
   server: {
     port: 3030
   }
