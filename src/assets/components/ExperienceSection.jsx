@@ -3,23 +3,41 @@ import {motion} from "motion/react";
 export default function ExperienceSection(){
     const experiences = [
         {
-            title: "Desenvolvedor Full Stack",
-            company: "Empresa X",
-            period: "2022 - Presente",
-            description: "Atuando no desenvolvimento de aplicações web com React, Tailwind, ASP.NET Core e bancos de dados relacionais."
+            title: "Atendente Comercial",
+            company: "Grupo F&F",
+            period: "2024 - Atualemente",
+            description: "Atendimento à clientes e suporte externo e interno da corporação."
         },
         {
-            title: "Desenvolvedor Front-End",
-            company: "Startup Y",
-            period: "2020 - 2022",
-            description: "Criação de interfaces modernas e responsivas utilizando React.js e integração com APIs RESTful."
+            title: "Desenvolvedor web Freelance",
+            company: "Molduarte HomeDecor",
+            period: "2024",
+            description: "Projetei e desenvolvi uma página web com HTML/CSS e Javascript, hospedando no PHPMyAdmin a partir do Hostinger."
         },
         {
-            title: "Estagiário em TI",
-            company: "Empresa Z",
-            period: "2019 - 2020",
-            description: "Auxílio no suporte técnico e desenvolvimento de pequenas funcionalidades para sistemas internos."
-        }
+            title: "Chefe de Sala",
+            company: "CEBRASPE - Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+            period: "2024",
+            description: "Organizar e fiscalizar realização de exame em Monte Gordo, Camaçari, Ba."
+        },
+        {
+            title: "Auxiliar Administrátivo",
+            company: "IFBA - Instituto Federal de ciência e tecnológia da Bahia",
+            period: "2023",
+            description: "Auxiliar nos setores internos do campus Lauro de Freitas."
+        },
+        {
+            title: "Palestrante de artigo",
+            company: "SBGames - Sociedade Brasileira de Games",
+            period: "2022",
+            description: "Organizar, preparar, e discorrer em apresentação de 15 minutos sobre o desenvolvimento do jogo desenvolvido no projeto de pesquisa."
+        },
+        {
+            title: "Desenvolvedor de Jogos",
+            company: "IFBA",
+            period: "2021 - 2022",
+            description: "Projeto de pesquisa com enfasse no desenvolvimento de jogo utilizando C# e Unity, retratando a cultura da Bahia e o camdomblé."
+        },
     ];
 
     return(
@@ -39,6 +57,7 @@ export default function ExperienceSection(){
                             key={index} 
                             initial={{ opacity: 0, x: index % 2 === 0 ? -100 : 100 }} 
                             whileInView={{ opacity: 1, x: 0, transition: { duration: 0.5, delay: index * 0.2 } }} 
+                            whileHover={{scale: 1.1}}  
                             viewport={{ once: true, amount: 0.3 }}
                             className="bg-[#191919] p-6 rounded-lg shadow-lg border-l-4 border-purple-500"
                         >

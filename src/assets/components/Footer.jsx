@@ -14,7 +14,6 @@ function Footer() {
                         <li><a href="#" className="hover:underline">Sobre Mim</a></li>
                         <li><a href="#" className="hover:underline">Habilidades</a></li>
                         <li><a href="#" className="hover:underline">Portfólio</a></li>
-                        <li><a href="#" className="hover:underline">Política de Privacidade</a></li>
                     </ul>
                 </div>
                 <div>
