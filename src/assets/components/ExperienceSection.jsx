@@ -6,13 +6,13 @@ export default function ExperienceSection(){
             title: "Atendente Comercial",
             company: "Grupo F&F",
             period: "2024 - Atualemente",
-            description: "Atendimento à clientes e suporte externo e interno da corporação."
+            description: "Atendimento à clientes e suporte externo e interno da corporação. Fiz o treinamento para trabalhar como analista de redes e enquanto estudava, trabalhei no desenvolvimento de um sistema de LPR usando C#, EmguCV, ML.NET e TesseractOCR"
         },
         {
             title: "Desenvolvedor web Freelance",
             company: "Molduarte HomeDecor",
             period: "2024",
-            description: "Projetei e desenvolvi uma página web com HTML/CSS e Javascript, hospedando no PHPMyAdmin a partir do Hostinger."
+            description: "Projetei e desenvolvi uma página web com HTML, CSS e Javascript, com banco de dados no PHPMyAdmin, hospedado no Hostinger."
         },
         {
             title: "Chefe de Sala",

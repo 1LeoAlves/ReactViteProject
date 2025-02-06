@@ -9,10 +9,10 @@ export default function ProjectsSection() {
                 </h1>
                 <div className="w-full mt-6">
                     <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
-                        <ProjectCard title="Projeto 1" desc="Descrição breve." imgsrc="/img1.jpg" href="#" delay={0.1} />
-                        <ProjectCard title="Projeto 2" desc="Descrição breve." imgsrc="/img2.jpg" href="#" delay={0.2} />
-                        <ProjectCard title="Projeto 3" desc="Descrição breve." imgsrc="/img3.jpg" href="#" delay={0.3} />
-                        <ProjectCard title="Projeto 4" desc="Descrição breve." imgsrc="/img4.jpg" href="#" delay={0.4} />
+                        <ProjectCard title="Projeto 1" desc="Descrição breve." imgsrc="./img1.jpg" href="#" delay={0.1} />
+                        <ProjectCard title="Projeto 2" desc="Descrição breve." imgsrc="./img2.jpg" href="#" delay={0.2} />
+                        <ProjectCard title="Projeto 3" desc="Descrição breve." imgsrc="./img3.jpg" href="#" delay={0.3} />
+                        <ProjectCard title="Projeto 4" desc="Descrição breve." imgsrc="./img4.jpg" href="#" delay={0.4} />
                     </ul>
                 </div>
             </div>

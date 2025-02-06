@@ -5,13 +5,14 @@ export default function NavButton(props){
     initial={
         {
             x: 500,
-            opacity: 0
+            opacity: 0.05
         }
     }
     animate={
         {
             ease: "easeInOut", 
-            x: 0, opacity: 1, 
+            x: 0, 
+            opacity: 1, 
             transition: {
                 duration:.5, 
                 delay: props.delay
