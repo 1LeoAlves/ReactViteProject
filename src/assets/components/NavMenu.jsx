@@ -13,7 +13,7 @@ function NavMenu(){
                 <GlowButton targetId={"#bio"} text={"Inicio"} delay={.1}/>
                 <GlowButton targetId={"ID-Aqui"} text={"Sobre mim"} delay={.2}/>
                 <GlowButton targetId={"ID-Aqui"} text={"Competências"} delay={.3}/>
-                <FileButton filePath={"/files/Curriculo_Leonardo_Alves.pdf"} text={"Baixar Currículo"} delay={.4}/>
+                <FileButton filePath={"./files/Curriculo_Leonardo_Alves.pdf"} text={"Baixar Currículo"} delay={.4}/>
             </motion.nav>
         </section>
     )
